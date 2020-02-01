@@ -2,7 +2,7 @@
 
 ## Capstone Project Proposal
 
-## Flower Shop App
+## com.flowershop.backend.flowers.Flower Shop App
 
 ### Project Description
 
@@ -20,7 +20,7 @@
 
 ### Who has this problem?
 
-- Flower Shop Owner
+- com.flowershop.backend.flowers.Flower Shop Owner
 
 ### How will your project solve this problem?
 
