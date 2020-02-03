@@ -18,7 +18,7 @@ public class FlowersController {
     }
 
     //create all the route handler methods
-    //to manage data (getAll, getOne, addOne, updateOne, removeOne, etc.
+    //to manage data (getAll, getOne, addOne, updateOne, removeOne, etc.)
     //indicates which HTTP method thisroute will look for
 
     @GetMapping
