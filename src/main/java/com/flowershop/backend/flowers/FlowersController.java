@@ -5,16 +5,21 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RestController
-@RequestMapping("/flowers")
+@RestController //indicates this will be a controller file
+@RequestMapping("/flowers") //maps this controller to a route prefix
 public class FlowersController {
 
+ //declares the instance of the service class
     @Autowired
     private final FlowersService flowersService;
 
     public FlowersController(FlowersService flowersService) {
         this.flowersService = flowersService;
     }
+
+    //create all the route handler methods
+    //to manage data (getAll, getOne, addOne, updateOne, removeOne, etc.
+    //indicates which HTTP method thisroute will look for
 
     @GetMapping
     public List<Flower> getAllFlowers() {

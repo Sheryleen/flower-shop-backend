@@ -6,11 +6,14 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service
+@Service //indicates this class is a service
 public class FlowersService {
 
+    //declares an instance of the repository interface
     @Autowired
     private final FlowersRepository flowersRepository;
+
+    //create all methods required to manage data
 
     public FlowersService(FlowersRepository flowersRepository){
     this.flowersRepository = flowersRepository;
