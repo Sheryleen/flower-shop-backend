@@ -23,4 +23,4 @@ VALUES
 ,
     ('Bouquet Fall Splendor', 14.00, 'https://images-na.ssl-images-amazon.com/images/I/61rJjGodbaL._AC_SL1024_.jpg', 4, false, true)
 ,
-    ('24 Stem Bunch of Roses', 19.99, 'https://www.amazon.com/Whole-Trade-Guarantee-Double-Colors/dp/B07N91VSZP/ref=sr_1_3?almBrandId=VUZHIFdob2xlIEZvb2Rz&fpw=alm&keywords=flowers&qid=1581295146&sr=8-3', 5, true, true);
+    ('24 Stem Bunch of Roses', 19.99, 'https://https://images-na.ssl-images-amazon.com/images/I/71tTnvJ3RYL._SL1500_.jpg', 5, true, true);

@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController //indicates this will be a controller file
+@CrossOrigin
 @RequestMapping("/flowers") //maps this controller to a route prefix
 public class FlowersController {
 
