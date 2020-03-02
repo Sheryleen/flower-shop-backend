@@ -35,6 +35,9 @@ public class Flower {
 
     public Flower(){}
 
+    public int getId() {
+        return Id;
+    }
 }
 
 
